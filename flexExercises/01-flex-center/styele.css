@@ -1,0 +1,25 @@
+
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 500px;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 4px darkblue;
+    background-color: lightskyblue;
+    width: 30%;
+    padding: 80px;
+}
+
+.inBox {
+    background-color: salmon;
+    border: solid 4px darkred;
+    text-align: justify;
+    text-align-last: center;
+    width: 100px;
+    height: 100px;
+}
