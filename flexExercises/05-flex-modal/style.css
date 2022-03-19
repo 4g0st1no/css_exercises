@@ -1,0 +1,85 @@
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    background: #aaa;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.close {
+    background: #eee;
+    border-radius: 50%;
+    color: #888;
+    font-weight: 600;
+    font-size: 16px;
+    height: 24px;
+    width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    color: royalblue;
+    font-size: 26px;
+    font-weight: 700;
+    background: lavender;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.allert {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: aliceblue;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px;
+    width: 480px;
+    gap: 15px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bolder;
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+  }
+  
+  button.continue {
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+  }
+  
+  button.cancel {
+    background: white;
+    border: 1px solid #ddd;
+    color: royalblue;
+  }
+
+  .text {
+      margin-bottom: 16px;
+  }
+
